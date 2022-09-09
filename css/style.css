@@ -1,0 +1,106 @@
+@import "bootstrap.css";
+@import "all.css";
+@import "roboto.css";
+body{
+    margin: 0;
+    font-family: 'Roboto';
+    margin-bottom: 200px;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    list-style: none;
+    display: block;
+}
+/* header/start// */
+.header-con{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.logo-img{
+    width: 65%;
+}
+.header-ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+.header-a{
+    padding: 0px 10px;
+    font-weight: 500;
+    transition: all 1s ease;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+.header-a:hover{
+    color: #FAA001;
+}
+.header-li{
+    position: relative;
+}
+.drop{
+    position: absolute;
+    left: 10%;
+    right: 90%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #ccc;
+    top: 27px;
+    padding: 17px;
+    padding-bottom: 0px;
+    width: 220px;
+    display: none;
+}
+.header-li:hover .drop{
+    display: block;
+}
+.button-i{
+    display: flex;
+    justify-content: flex-end;
+}
+.button-a{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    background-color: #faa001;
+    color: #fff;
+    font-weight: 600;
+    height: 44px;
+    line-height: 22px;
+    border: 1px solid #faa001;
+}
+.button-a:hover{
+    background-color: #fff;
+    color: #faa001;
+}
+
+.line{
+    width: 100%;
+    height: 40px;
+    background-color: #faa001;
+    text-align: center;
+    padding-top: 6px;
+}
+.text-pading{
+    padding-top: 177px;
+}
+.text-h1{
+    max-width: 500px;
+}
+.banner{
+    margin-right: -111px;
+}
+.yyy{
+    border-radius: 50%;
+    width: 48px;
+    padding: 9px;
+    text-align: center;
+    background-color: #FAA001;
+    color: white;
+}
+/* header/end// */
